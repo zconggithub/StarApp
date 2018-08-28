@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta content="text/html;charset=UTF-8" />
+  <title>StarApp</title>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<link rel="stylesheet" href="/css/login.css" />
+</head>
+<body>
+ <div class="login_container">
+ 
+ <div class="loin_title">
+ 	<span>Star App</span>
+ </div>
+ <div class="login_part">
+		 	<div id="login_user" class="login_user">
+		 <form class="login" action="login" >
+		 	<p><span></span></p>
+		 	<table class="login_table">
+		 		<thead>
+		 			<tr><td>账户</td><td><input id="account" name="account" value="请输入邮箱"></input></td><td id="message"></td></tr>
+		 			<tr><td>密码</td><td><input id="pwd" name="pwd" value="请输入密码"></input></td><td id="message"></td></tr>		
+		 		</thead>
+		 	</table>
+		 </form>
+		 	</div>
+		 	<div class="login_button">
+		 			<p><button>登陆</button></p>
+		 			<p><button>注册</button></p>
+		 			<p><a style="color: red" href="../index.html">忘记密码</a></p>
+		 			<!-- 用于第三方登录 -->
+		 			<p id="third_login"></p>
+		 	</div>
+ </div>
+ </div>
+</body>
+</html>
