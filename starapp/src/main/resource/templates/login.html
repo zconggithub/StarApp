@@ -8,6 +8,8 @@
 <meta http-equiv="cache-control" content="no-cache" />
 <meta http-equiv="expires" content="0" />
 <link rel="stylesheet" href="/css/login.css" />
+<script type="text/javascript" src="/js/login.js"></script>
+<script type="text/javascript" src="/js/jquery-1.9.1.jquery.js"></script>
 </head>
 <body>
  <div class="login_container">
@@ -21,14 +23,14 @@
 		 	<p><span></span></p>
 		 	<table class="login_table">
 		 		<thead>
-		 			<tr><td>账户</td><td><input id="account" name="account" value="请输入邮箱"></input></td><td id="message"></td></tr>
-		 			<tr><td>密码</td><td><input id="pwd" name="pwd" value="请输入密码"></input></td><td id="message"></td></tr>		
+		 			<tr><td>账户</td><td><input id="account" name="account" ></input></td><td id="message"></td></tr>
+		 			<tr><td>密码</td><td><input id="pwd" name="pwd" type="password"></input></td><td id="message"></td></tr>		
 		 		</thead>
 		 	</table>
 		 </form>
 		 	</div>
 		 	<div class="login_button">
-		 			<p><button>登陆</button></p>
+		 			<p><button onclick="login()">登陆</button></p>
 		 			<p><button>注册</button></p>
 		 			<p><a style="color: red" href="../index.html">忘记密码</a></p>
 		 			<!-- 用于第三方登录 -->

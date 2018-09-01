@@ -1,7 +1,7 @@
-/* *{ 
+ *{ 
 margin: 0px;
 padding: 0px;
-} */
+} 
 .index_container{
 	width: 100%;
 	height:800px;
@@ -9,16 +9,17 @@ padding: 0px;
 }
 
 .header_container {
-    background-color:#95b2e1;
+    background-color:#1c85ab;
     border: 1px solid;
     height:50px;
 }
 .header_container .c1 ul{
             list-style: none;
+            margin-left: 400px;
         }
 .header_container .c1 li{
             border: 1px black solid;
-            background-color: yellow;
+            background-color: #ffffff;
             font-size: 30px;
             width: 100px;
             height: 50px;
@@ -29,7 +30,7 @@ padding: 0px;
             background-color: #b3d4fc;
         }
 .foot_container{
-	background-color:#95b2e1;
+	background-color:#1c85ab;
     border: 1px solid;
     height:50px;
 }
